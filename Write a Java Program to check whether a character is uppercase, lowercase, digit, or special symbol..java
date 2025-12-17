@@ -2,17 +2,17 @@ import java.util.Scanner;
 public class c6{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        char c = sc.next().charAt(0);
-        System.out.println((int)c);
+        char ch = sc.next().charAt(0);
+        //  System.out.println((int)c);
     
-     if(c=='A'||c=='Z'){
+     if(ch>= 'A' && ch<= 'Z'){
               System.out.println("Uppercase");
      }else if
-         ( c=='a'||c=='z'){
+         ( ch>='a'&&ch<='z'){
         System.out.println("Lowercase");
      }
      else if
-      (c=='1'||c=='9'){
+      (ch>='1'&&ch<='9'){
         System.out.println("Digit");
 }
     else 
